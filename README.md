@@ -3,20 +3,36 @@
 
 <br>
 
-<p align="center">
-<a href="https://codeclimate.com/github/pkini2002/Social-media-web-app/maintainability">
-<img src="https://api.codeclimate.com/v1/badges/b79b9943a5cb4340c05f/maintainability" /></a>
-<a href="https://codeclimate.com/github/pkini2002/Social-media-web-app/test_coverage">
-<img src="https://api.codeclimate.com/v1/badges/b79b9943a5cb4340c05f/test_coverage" /></a>
-</p>
+ConnectSphere: A Django-Powered Social Media WebApp 🌐🔗
 
-<p align="center">
-<a href="https://www.python.org/"><img src="https://forthebadge.com/images/badges/made-with-python.svg" border="0" title="Made with Python" />
-</p>
+Team memers: Khushi Jain, Mohd Sameer, Apeksha Saxena, Praveen Patel, PIYUSH JAIN
 
-<p align="center">
-<a href="http://www.djangoproject.com/"><img src="https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif" border="0" alt="Powered by Django." title="Powered by Django." /></a>
-</p>
+Status: ONGOING
+
+Hey LinkedIn Fam! 👋
+I'm thrilled to share the latest on ConnectSphere, a dynamic Python Django social media web app that's redefining the way we connect and share! 🌟
+✨ Key Features:
+
+1. Follow Requests: Seamlessly connect with friends and like-minded individuals through follow requests.
+2. Media-Rich Posts: Share your moments with the world! Upload text or captivating photos with personalized captions.
+3. Post Likes: Express yourself with a simple click! Now you can like posts and share the love. Spread positivity and appreciation within the ConnectSphere community.
+4. Engagement Galore: Express yourself through likes and dive into meaningful discussions with post comments.
+5. Profile Showcase: Curate your digital identity with a detailed profile view showcasing your interests and updates.
+6. Other Profile Search: Explore and connect with ease! Our new search functionality allows you to find other profiles effortlessly. Discover new friends and like-minded individuals and view their profile.
+7. User Authentication: Your security is our priority! We've implemented a robust user authentication system. Log in securely to your ConnectSphere account and enjoy a personalized experience.
+8. Login and Logout: Seamlessly access your account with the enhanced login feature. When your ConnectSphere journey concludes, log out securely. Your data, your control.
+
+🛠️ Tech Stack:
+Python Django: Powering the backend with robust and scalable functionality.
+HTML, CSS, Js: Crafting an intuitive and visually appealing user interface.
+SQLite: Managing data with efficiency and reliability.
+🚀 What's Next?
+ConnectSphere is not just a project; it's a journey! Our next big leap involves integrating machine learning to enhance your experience. Imagine personalized post recommendations based on your likes, watch time, and preferred tags. 🤖✨
+🔍 Stay Tuned for:
+Smart Recommendations: Discover content tailored just for you.
+Enhanced Interactivity: Engage with posts that resonate with your interests.
+Tagged Brilliance: Explore a world of content through carefully curated tags.
+ConnectSphere is more than just a social platform; it's a community. Join us on this incredible ride as we shape the future of social interactions. Your stories, your voice—amplified through ConnectSphere! 🚀🌐
 
 ### Pages
 
@@ -53,36 +69,7 @@ Database: `Sqlite3`
 
 ### Installation
 
-1. - Fork the [repo](https://github.com/pkini2002/Social-media-web-app)
-   - Clone the repo to your local system
-   ```git
-   git clone https://github.com/pkini2002/Social-media-web-app.git
-   cd Social-media-web-app
-   ```
-   Make sure you have python installed on your system.
-2. Create a Virtual Environment for the Project
-
-   If u don't have a virtualenv installed
-
-   ```bash
-   pip install virtualenv
-   ```
-   **For Windows Users**
-   ```bash
-   virtualenv env
-   env/Scripts/activate
-   ```
-
-
-   **For Linux Users**
-   ```bash
-   virtualenv env
-   source env/Scripts/activate
-   ```
-
-   If you are giving a different name than `env`, mention it in `.gitignore` first
-
-3. Install all the requirements
+1. Install all the requirements
 
    ```bash
    pip install -r requirements.txt
@@ -93,14 +80,14 @@ Database: `Sqlite3`
    ```
 
 
-4. Make migrations/ Create db.sqlite3
+2. Make migrations/ Create db.sqlite3
 
    ```bash
    python manage.py makemigrations
    python manage.py migrate
    ```
 
-5. Create a super user.
+3. Create a super user.
    This is to access Admin panel and admin specific pages.
 
    ```djangotemplate
@@ -110,44 +97,9 @@ Database: `Sqlite3`
 
    Enter your username, email and password.
 
-6. Run server
+4. Run server
    ```bash
    python manage.py runserver
    
   
- ### Snapshots
 
-**1. Signup Page**
-
-![Signup page](https://user-images.githubusercontent.com/84091455/208101528-a448872c-6e8c-4f9e-b287-1c64a58d0c6f.png)
-
-**2. Login Page**
-
-![Login page](https://user-images.githubusercontent.com/84091455/208101465-29c16377-81a7-47c5-a051-c5ca103994a2.png)
-
-**3. Home/Feed Page**
-
-![Home Page](https://user-images.githubusercontent.com/84091455/208101566-beb72751-bfe6-4d4e-939a-09352b517206.png)
-
-**4. Comment Display**
-
-![Comment Display](https://user-images.githubusercontent.com/84091455/208101614-3500b844-f657-494f-b998-9bde17824aeb.png)
-
-**5. Profile Pages**
-
-**User Profile**
-
-![Show Profile](https://user-images.githubusercontent.com/84091455/208101687-2ed8cc97-7e6b-4f65-b7cc-d0aaae732d14.png)
-
-**Other's Profile**
-
-![127 0 0 1_8000_4_profile_(Nest Hub)](https://user-images.githubusercontent.com/84091455/208229214-687fcdea-72a0-4f86-afc4-1253629006e8.png)
-
-
-**6. Search Result Users Page**
-
-![Search Result](https://user-images.githubusercontent.com/84091455/208101657-497a2549-c882-4a50-93eb-fcd261201a13.png)
-
-**7. Create a user profile page**
-
-![Create user profile](https://user-images.githubusercontent.com/84091455/208101772-e022f7ee-5c8f-4799-b0be-b5d43effd1d9.png)
