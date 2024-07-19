@@ -5,12 +5,7 @@
 
 ConnectSphere: A Django-Powered Social Media WebApp 🌐🔗
 
-Team memers: Khushi Jain, Mohd Sameer, Apeksha Saxena, Praveen Patel, PIYUSH JAIN
 
-Status: ONGOING
-
-Hey LinkedIn Fam! 👋
-I'm thrilled to share the latest on ConnectSphere, a dynamic Python Django social media web app that's redefining the way we connect and share! 🌟
 ✨ Key Features:
 
 1. Follow Requests: Seamlessly connect with friends and like-minded individuals through follow requests.
